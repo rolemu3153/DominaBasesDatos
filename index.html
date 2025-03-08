@@ -27,6 +27,7 @@
         }
         .precio-contenedor {
             display: flex; /* Usamos flexbox para alinear imágenes y precio */
+            flex-direction: column; /* Apilamos las imágenes y el precio */
             align-items: center; /* Centramos verticalmente los elementos */
             justify-content: center; /* Centramos horizontalmente */
             margin: 20px 0;
@@ -41,13 +42,13 @@
         }
         .precio-images {
             display: flex;
-            flex-direction: column; /* Apilamos las imágenes */
-            margin-right: 20px; /* Espacio entre imágenes y precio */
+            justify-content: center; /* Centramos las imágenes horizontalmente */
+            margin-bottom: 20px; /* Espacio entre las imágenes y el precio */
         }
         .precio-images img {
-            width: 80px; /* Reducimos el tamaño de las imágenes */
+            width: 100px; /* Tamaño de las imágenes */
             border-radius: 5px;
-            margin-bottom: 10px; /* Espacio entre las imágenes apiladas */
+            margin: 0 10px; /* Espacio entre las imágenes */
         }
         .destacado {
             font-size: 18px;
