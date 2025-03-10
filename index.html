@@ -35,6 +35,27 @@
             border-radius: 8px;
             margin: 20px 0;
         }
+        .lead-magnet {
+            background: #007bff;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 15px 20px;
+            font-size: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #218838;
+        }
         .contenido-ebooks {
             text-align: left;
             background: #222;
@@ -50,7 +71,6 @@
             font-size: 18px;
             padding: 10px;
             margin: 5px 0;
-            background: #2e7d32;
             color: white;
             border-radius: 5px;
             display: flex;
@@ -58,8 +78,10 @@
         }
         .contenido-ebooks li::before {
             content: "✔";
-            margin-right: 10px;
+            color: #28a745;
+            font-size: 22px;
             font-weight: bold;
+            margin-right: 10px;
         }
         .boton-compra {
             display: inline-block;
@@ -82,12 +104,17 @@
 </head>
 <body>
     <div class="container">
+        <div class="lead-magnet">
+            <h2>🎁 ¡Descarga GRATIS el eBook de Bases de Datos! 🎁</h2>
+            <p>Aprende los fundamentos esenciales de bases de datos con este eBook gratuito.</p>
+            <a href="https://wa.me/xxxxxxxxxxx?text=Hola,%20quiero%20recibir%20el%20eBook%20gratuito%20de%20Bases%20de%20Datos!" class="cta-button">📥 Solicitar por WhatsApp</a>
+        </div>
         <h1> ¡Conviértete en un Experto en Bases de Datos y lenguaje SQL ! </h1>
         <h2> 📌 Contenido de los eBooks Adicionales </h2>
         <div class="contenido-ebooks">
             <ul>
-                <li><strong>📖 eBook: Aprende SQL a fondo desde cero</strong> – Domina cada aspecto del lenguaje SQL.</li>
-                <li><strong>📖 eBook: Domina la sentencia WITH del SQL, SUPER POTENTE y casi nadie la conoce</strong> – Optimiza consultas complejas como un experto.</li>
+                <li><strong>eBook: Aprende SQL a fondo desde cero</strong> – Domina cada aspecto del lenguaje SQL.</li>
+                <li><strong>eBook: Domina la sentencia WITH del SQL</strong> – SUPER POTENTE y casi nadie la conoce. Optimiza consultas complejas como un experto.</li>
             </ul>
         </div>
         <a href="#" class="boton-compra"> 📘 Comprar Ahora</a>
